@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "resource_gp" {
   location = "eastus"
 
   tags = {
-    Owner = "Guilherme Kurowski"
+    Owner = "Guilherme Ribeiro"
   }
 }
 
@@ -73,6 +73,6 @@ resource "azurerm_virtual_machine" "main" {
     disable_password_authentication = false
   }
   tags = {
-    Owner = "Guilherme Kurowski"
+    Owner = "Guilherme Ribeiro"
   }
 }
